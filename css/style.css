@@ -1,16 +1,556 @@
 @media(max-width: 700px){
- .write-up{
-  display: none;
- }
- .nav-icon{
-  display: inline;
- }
- 
-}
-@media(min-width: 701px){
-  
-  .nav-icon{
+  .write-up{
    display: none;
   }
+  .nav-icon{
+   display: inline;
+  }
+  
  }
+ @media(min-width: 701px){
+   
+   .nav-icon{
+    display: none;
+    
+   }
+   .first-talking{
+    display: inline-block
+   }
+   .smile-man{
+    height: 400px;
+    width: 400px;
+   }
+   
+  }
+  @media(max-width: 800px){
+    .button-parent{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .done{
+      font-size: small;
+      font-weight: 400;
+    }
+    .first-button{
+      margin-bottom: 10px;
+      margin-left: 7px;
 
+    }
+    .next{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .second-section{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0;
+      margin-top: 100px;
+      align-items: center;
+      padding-right: 0px;
+      padding-left: 0;
+      
+      }
+
+    .second-section .smile-image{
+      margin-top: 50px;
+      margin-left: 0;
+    }
+    .smile-image img{
+      height: 350px;
+      width: 350px;
+    }
+
+    .third{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .third-section{
+      display: flex;
+      flex-direction: column-reverse;
+      
+      margin-top: 0px;
+      align-items: center;
+      padding-right: 0px;
+      padding-left: 0;
+      
+      }
+
+    .third-section .man-phone-image{
+      margin-top: 50px;
+      margin-right: 0;
+    }
+    .man-phone-image img{
+      height: 350px;
+      width: 350px;
+    }
+   
+    .forth{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .forth-section{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0;
+      margin-top: 100px;
+      align-items: center;
+      padding-right: 0px;
+      padding-left: 0;
+      
+      }
+
+    .forth-section .happy-image{
+      margin-top: 50px;
+      margin-left: 0;
+    }
+    .happy-image img{
+      height: 350px;
+      width: 350px;
+    }
+
+    .forth{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+   
+    .final-all{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .final .final-all{
+      padding-top: 0;
+    }
+  
+   .final-all .final-button{
+    margin-left: 0;
+    margin-right: 0;
+   }
+   .final-play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   }
+   .final-app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .final-button .final-play{
+    width: 250px;
+    margin-left: 0;
+   }
+   .final-button .final-app{
+    width: 250px;
+   }
+ 
+   .final-app .final-pics{
+    margin-top: 4px;
+   }
+  
+   .container{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    
+   }
+  .the-ending .container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+    
+  }
+  .container .first-part{
+    margin-left: -40px;
+    margin-bottom: 40px;
+  }
+  .container .feedback{
+    margin-left: -40px;
+    margin-bottom: 40px;
+  }
+  .container .the-last-ending{
+    margin-left: -40px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .button-parent .second-button{
+    height: 50px;
+    width: 130px;
+  }
+  }
+
+
+  @media(max-width: 400px){
+    .write-up{
+     display: none;
+    }
+    .nav-icon{
+     display: inline;
+    }
+    
+   }
+   @media(min-width: 701px){
+     
+     .nav-icon{
+      display: none;
+      
+     }
+     .first-talking{
+      display: inline-block
+     }
+     .smile-man{
+      height: 400px;
+      width: 400px;
+     }
+     
+    }
+    @media(max-width: 501px){
+      
+      
+      
+      .logo-pics .pics{
+      width: 30px;
+      }
+      .logo .logo-writing{
+        font-size: 25px;
+        margin-top: 5px;
+      }
+      .nav-icon .nav{
+        width: 25px;
+      }
+      .done .head{
+        height: 10px;
+       
+      }
+       .head .header{
+        margin-top: -20px;
+       }
+       .header .nav-icon{
+        margin-top: 10px;
+       }
+       .everything-inside .first{
+        margin-top: -50px;
+       }
+      .button-parent{
+        display: flex;
+        flex-direction: column;
+        
+      }
+      .first .button-parent{
+        margin-top: 15px;
+      }
+    .section-write-up .second-write-up{
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+    .section-write-up .first-write-up{
+      margin-bottom: 15px;
+      margin-top: 0;
+    }
+      .button-parent .second-button{
+        height: 50px;
+        width: 130px;
+      }
+      .first .section-pics-1{
+        margin-bottom: -10px;
+      }
+      
+      .section-write-up .first-write-up{
+        margin-top: 0;
+      }
+      .okay{
+        margin-bottom: 20px;
+      }
+      .one .davido{
+        width: 30px;
+        height: 30px;
+      }
+      .two .wizkid{
+        width: 30px;
+        height: 30px;
+      }
+      .old .burna{
+        width: 30px;
+        height: 30px;
+      }
+      .new .rema{
+        width: 30px;
+        height: 30px;
+      }
+      .first .second-pics-2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+      }
+      .first-button{
+        margin-bottom: 10px;
+        margin-left: 7px;
+  
+      }
+      .next{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .second-section{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+        margin-top: 100px;
+        align-items: center;
+        padding-right: 0px;
+        padding-left: 0;
+        
+
+        }
+        
+        .inspire .top{
+          font-size: 20px;
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+        .inspire .first-talking{
+          font-size: 15px;
+          line-height: 20px;
+        }
+
+        .zero .replied{
+          font-size: 20px;
+        }
+        .zero .second-talking{
+          font-size: 15px;
+          line-height: 20px;
+        }
+        
+        .better-way .reaching{
+          font-size: 20px;
+          margin-bottom: 0;
+          margin-top: o;
+        }
+        .better-way .forth-talking{
+          font-size: 15px;
+          line-height: 20px;
+        }
+        .section-write-up .first-write-up{
+          font-size: 20px;
+          line-height: 20px;
+        }
+        .section-write-up .second-write-up{
+          font-size: 15px;
+          line-height: 20px;
+        }
+        .final-write-up .build{
+          font-size: 20px;
+        }
+        .final-write-up .ear{
+          font-size: 15px;
+          line-height: 20px;
+        }
+        .first-part .first-part-first-writing{
+          font-size: 15px;
+          
+        }
+        .first-part .first-part-second-writing{
+          font-size: 15px;
+          line-height: 20px;
+        }
+
+        .feedback .company{
+          font-size: 15px;
+          
+        }
+        .feedback .about-us{
+          font-size: 15px;
+          line-height: 20px;
+        }
+        .feedback .faq{
+          font-size: 15px;
+          line-height: 20px;
+        }
+        .feedback .contact-us{
+          font-size: 15px;
+          line-height: 20px;
+        }
+        .the-last-ending .in-touch{
+          font-size: 15px;
+          
+        }
+        .the-last-ending .question{
+          font-size: 15px;
+          line-height: 20px;
+        }
+        .next .second-section{
+          margin: 10px;
+        }
+      .second-section .smile-image{
+        margin-top: 20px;
+        margin-bottom: 0;
+      }
+      .smile-image img{
+        height: 250px;
+        width: 250px;
+      }
+  
+      .third{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .third-section{
+        display: flex;
+        flex-direction: column-reverse;
+        
+        margin-top: 0px;
+        align-items: center;
+        padding-right: 0px;
+        padding-left: 0;
+        
+        }
+        .zero .replied{
+          margin-bottom: 0;
+          margin-top: 0;
+        }
+  
+      .third-section .man-phone-image{
+        margin-top: 20px;
+        margin-right: 0;
+      }
+      .man-phone-image img{
+        height: 250px;
+        width: 250px;
+      }
+     
+      .forth{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+      }
+      .forth-section{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+        margin-top: 100px;
+        align-items: center;
+        padding-right: 0px;
+        padding-left: 0;
+        
+        }
+  
+      .forth-section .happy-image{
+        margin-top: 20px;
+        margin-bottom: 0;
+      }
+      .happy-image img{
+        height: 250px;
+        width: 250px;
+      }
+  
+      .forth{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .third .third-section{
+        margin-top: 20px;
+        margin-bottom: 0px;
+       }
+      .forth .forth-section{
+        margin-top: 0px;
+        margin-bottom: 0px;
+       }
+      
+      .final .final-all{
+       margin-top: 20px;
+       margin-bottom: 20px;
+      }
+     
+      .final-all{
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .final .final-all{
+        padding-top: 0;
+      }
+    
+     .final-all .final-button{
+      margin-left: 0;
+      margin-right: 0;
+     }
+     .final-play{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+     }
+     .final-app{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     }
+     .final-button .final-play{
+      width: 200px;
+      margin: 0;
+     }
+     .final-button .final-app{
+      width: 200px;
+      margin-top: 10px;
+     
+     }
+   
+     .final-app .final-pics{
+      margin-top: 4px;
+     }
+    
+     .container{
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+      
+     }
+    .the-ending .container{
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      padding: 0;
+      margin: 20px;
+    }
+    .container .first-part{
+      margin-left: 0px;
+      margin-bottom: 20px;
+    }
+    .container .feedback{
+      margin-left: 0px;
+      margin-bottom: 20px;
+    }
+    .container .the-last-ending{
+      margin-left: 0px;
+      margin-bottom: 20px;
+      width: 80%;
+    }
+    }
+  
+  
+    

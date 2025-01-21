@@ -15,11 +15,11 @@
     opacity: 0.5;
   }
 }
-
-
 .everything-inside{
   margin-top: 140px;
 }
+
+
 .first{
  
  display: flex;
@@ -125,7 +125,7 @@
 .g-a-play-pics{
   margin-top: 5px;
 }
-.first{
+.get{
   font-size: 9px;
   margin-top: 10px;
   margin-left: 0;
@@ -145,11 +145,17 @@
   color: white;
   background-color: #1ed760;
 }
+.okay{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .section-pics-2{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 100px;
+  margin-top: 20px;
+  width: 80%;
 }
 .burna 
 {
@@ -172,17 +178,24 @@
  object-fit: cover;
 }
 
+.next{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .second-section{
   display: flex;
   margin-top: 100px;
   align-items: center;
   padding-right: 0px;
   padding-left: 0;
- 
+  
+  width: 100%;
+  
 }
 .inspire{
  
-  width: 780px;
+  
 
   text-align: center;
 }
@@ -204,42 +217,37 @@ i{
   line-height: 40px;
 }
 .smile-image{
-  margin-left: 50px;
-  width: 300px;
-  height: 400px;
+ 
+  
+  margin-left: 60px;
+  
  
 }
 .smile-man{
-  border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
   height: 400px;
   width: 400px;
-  object-fit: cover;
 }
+
+
 .third-section{
   display: flex;
   margin-top: 50px;
   align-items: center;
+  padding-right: 0px;
+  padding-left: 0;
   
-}
-.man-phone-image{
-  margin-right: 10px;
-  width: 300px;
-  height: 400px;
+  width: 100%;
   
-}
-.man-phone-pics{
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
 }
 .zero{
-  width: 750px;
-  margin-left: 120px;
+ 
+  
+
   text-align: center;
 }
+
 .replied{
   margin-bottom: 50px;
   font-size: 35px;
@@ -251,22 +259,39 @@ i{
   margin-bottom: 0;
   color: grey;
   line-height: 40px;
-  width: 800px;
+}
+.man-phone-image{
+ 
   
+  margin-right: 60px;
+  
+ 
+}
+.man-phone-pics{
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  height: 400px;
+  width: 400px;
 }
 
 .forth-section{
   display: flex;
+  flex-direction: column;
   margin-top: 50px;
   align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.better-way{
-  width: 780px;
-  text-align: center;
+  padding-right: 0px;
+  padding-left: 0;
+  
+  width: 100%;
   
 }
+.better-way{
+ 
+  
+
+  text-align: center;
+}
+
 .reaching{
   margin-bottom: 50px;
   font-size: 35px;
@@ -275,44 +300,45 @@ i{
 .forth-talking{
   font-size: 30px;
   font-weight: lighter;
+  margin-bottom: 0;
   color: grey;
   line-height: 40px;
-  width: 1100px;
-  margin-left: -20px;
-  
-  margin-left: -150px;
 }
 .happy-image{
-  width: 300px;
-  height: 400px;
-  margin-left: -50px;
-  margin-top: 40px;
-
+ 
+  
+  margin-top: 60px;
+  
+ 
 }
 .happy-man{
-  border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
   height: 400px;
   width: 400px;
-  object-fit: cover;
+}
+
+.final{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .final-all{
   display: flex;
-  background-color: #1ed760;
-  color: white;
-  border-radius: 10px;
-  border: none;
-  height: 300px;
-  width: 100%;
-  margin: 50px 5px;
+  margin-top: 100px;
   align-items: center;
   justify-content: space-between;
-  
+ 
+  width: 100%;
+  background-color: #1ed760;
+  color: white;
+  margin: 50px 5px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 10px;
 }
 .final-write-up{
-  width: 650px;
   
-  height: 250px;
   margin-left: 20px;
 }
 .build{
@@ -329,6 +355,7 @@ i{
   display: flex;
   flex-direction: column;
   margin-right: 30px;
+  margin-left: 400px;
 }
 .final-play{
   width: 117px;
